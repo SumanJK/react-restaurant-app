@@ -1,0 +1,29 @@
+.payment_wrpapper{
+
+}
+.payment_method{
+
+padding: 0 10px;
+width: 40%;
+text-align: left;
+}
+.payment_method h4{
+    width: 150px;
+    
+    font-weight:500;
+    font-size: 18px;
+    margin: 5px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.payment_method input{
+    width: 15px;
+    height: 15px;
+    font-size:10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.payment_method label{
+    
+    font-weight:500;
+    font-size: 14px;
+}
+

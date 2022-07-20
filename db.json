@@ -1,0 +1,304 @@
+{
+    "restaurantData":[
+        {
+            "id": 1,
+            "name":"Hot N Fresh Pizza",
+            "categories":["Pizza", "Fast Food", "Beverages", "Shake"],
+            "rating": 4.5,
+            "cost": 100,
+            "reviews": 390,
+            "time": "41min",
+            "img": "https://b.zmtcdn.com/data/pictures/6/19546206/b0d610249ff463c8d81e78e7ad073e17_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 2,
+            "name":"Nana Hotel",
+            "categories":["North Indian", "Chinese", "Mughlai"],
+            "rating": 3.7,
+            "cost": 100,
+            "reviews": 420,
+            "time": "48min",
+            "img":"https://b.zmtcdn.com/data/pictures/0/19641350/bccff7bfb2458470d8200a7d4fda7911_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 3,
+            "name":"Hotel Delicious",
+            "categories":["North Indian", "Chinese"],
+            "rating": 3.2,
+            "cost": 120,
+            "reviews": 150,
+            "time": "49min",
+            "img":"https://b.zmtcdn.com/data/pictures/2/19039492/f5826b2f5df91a4d3a9ca95e0ce3b729_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 4,
+            "name":"Qimerrah Inn",
+            "categories":["Biryani", "Chinese", "Fast Food", "North Indian", "Shake"],
+            "rating": 4.5,
+            "cost": 150,
+            "reviews": 393,
+            "time": "31min",
+            "img":"https://b.zmtcdn.com/data/pictures/5/19449085/8198fb22cc1afb6c3c58df9e5b2eeb69_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 5,
+            "name":"Swayamprava Hotel & Restaurant",
+            "categories":["South Indian", "North Indian", "Chinese"],
+            "rating": 3.5,
+            "cost": 130,
+            "reviews": 225,
+            "time": "42min",
+            "img":"https://b.zmtcdn.com/data/pictures/1/19759481/a3eb531ce4d5cfc1e7a82a3023dd642c_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 6,
+            "name":"Bhabani Chowmein  Centre",
+            "categories":["North Indian", "Fast Food"],
+            "rating": 2.4,
+            "cost": 80,
+            "reviews": 112,
+            "time": "30min",
+            "img":"https://b.zmtcdn.com/data/pictures/8/19391258/8d93bcacc77559493b5cb4f1433ef962_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 7,
+            "name":"Tasty Momos",
+            "categories":["Momos"],
+            "rating": 4.3,
+            "cost": 100,
+            "reviews": 231,
+            "time": "22min",
+            "img":"https://b.zmtcdn.com/data/pictures/2/20109482/64b6f69c62becf6d54d869d832ce0888_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 8,
+            "name":"Indradhanu Restaurant",
+            "categories":["North Indian", "Hyderabadi", "Fast Food", "Chinese", "Biryani"],
+            "rating": 1.4,
+            "cost": 200,
+            "reviews": 225,
+            "time": "58min",
+            "img":"https://b.zmtcdn.com/data/pictures/9/19331049/90e04be09a054f19a920f0a4c213afc3_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 9,
+            "name":"Cafe Sizzle",
+            "categories":["Burger", "Pizza", "Sandwich", "Bakery", "Beverages"],
+            "rating": 3.7,
+            "cost": 90,
+            "reviews": 23,
+            "time": "21min",
+            "img":"https://b.zmtcdn.com/data/pictures/8/19185698/4fa658f4b62f3dd7786ea3a0ee084cbe_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 10,
+            "name":"Sri Sai Restaurant",
+            "categories":["North Indian", "Chinese", "Fast Food", "Mughlai"],
+            "rating": 3.3,
+            "cost": 120,
+            "reviews": 225,
+            "time": "33min",
+            "img":"https://b.zmtcdn.com/data/pictures/5/19449085/8198fb22cc1afb6c3c58df9e5b2eeb69_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 11,
+            "name":"Zaika Restaurant",
+            "categories":["North Indian", "Biryani", "Chinese"],
+            "rating": 4.8,
+            "cost": 110,
+            "reviews": 321,
+            "time": "32min",
+            "img":"https://b.zmtcdn.com/data/pictures/6/19101686/92ddaddb44b37d283052bad56dc5f73a_o2_featured_v2.png",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 12,
+            "name":"Biriyani Adda",
+            "categories":["Biryani", "North Indian", "Rolls"],
+            "rating": 3.5,
+            "cost": 160,
+            "reviews": 323,
+            "time": "40min",
+            "img":"https://b.zmtcdn.com/data/pictures/1/19759481/a3eb531ce4d5cfc1e7a82a3023dd642c_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 13,
+            "name":"RFC",
+            "categories":["North Indian", "Fast Food", "Chinese", "Biryani"],
+            "rating": 4.4,
+            "cost": 140,
+            "reviews": 126,
+            "time": "32min",
+            "img":"https://b.zmtcdn.com/data/pictures/3/19179683/d39d44f8958642f0bf00f6936f661736_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        },
+        {
+            "id": 14,
+            "name":"Hotel Suraj",
+            "categories":["Biryani", "Chinese", "Continental", "North Indian", "Odia"],
+            "rating": 4.5,
+            "cost": 110,
+            "reviews": 97,
+            "time": "34min",
+            "img":"https://b.zmtcdn.com/data/pictures/2/19099692/20447ebeba293aa608088727b85546d2_o2_featured_v2.jpeg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 15,
+            "name":"Bonfire Barbeque",
+            "categories":["Chinese", "North Indian"],
+            "rating": 3.7,
+            "cost": 120,
+            "reviews": 542,
+            "time": "26min",
+            "img":"https://b.zmtcdn.com/data/pictures/2/19037862/784b8d7038d01b4bb2eccb3183d23b9b_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 16,
+            "name":"Rainbow's Restaurant",
+            "categories":["North Indian", "South Indian", "Chinese"],
+            "rating": 4.2,
+            "cost": 140,
+            "reviews": 231,
+            "time": "35min",
+            "img":"https://b.zmtcdn.com/data/pictures/6/19036096/30ec693c3272e4616d30d0f640285102_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 17,
+            "name":"New Cafe Sizzle",
+            "categories":["Pizza", "Sandwich", "Fast Food", "Bakery", "Desserts", "Beverages", "Shake"],
+            "rating": 3.6,
+            "cost": 120,
+            "reviews": 543,
+            "time": "42min",
+            "img":"https://b.zmtcdn.com/data/pictures/7/19491147/3bf22da807cc4ab4e3c306da7b8aa297_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 18,
+            "name":"Asmita - The Biryani Hub",
+            "categories":["Fast Food", "Chinese"],
+            "rating": 2.3,
+            "cost": 160,
+            "reviews": 432,
+            "time": "32min",
+            "img":"https://b.zmtcdn.com/data/pictures/5/19767745/aa6fd89435d3155df1cd319437d42210_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 19,
+            "name":"Yum Chinese",
+            "categories":["Chinese"],
+            "rating": 4.2,
+            "cost": 180,
+            "reviews": 658,
+            "time": "52min",
+            "img":"https://b.zmtcdn.com/data/pictures/0/19040030/3c1d8be8546c2d50f2eacb369b258912_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": true,
+                "cash": true,
+                "upi": true
+            }
+        },
+        {
+            "id": 20,
+            "name":"The Biryani Box",
+            "categories":[],
+            "rating": 1.4,
+            "cost": 220,
+            "reviews": 35,
+            "time": "55min",
+            "img":"https://b.zmtcdn.com/data/pictures/7/19888917/00d79feb07532db15adda42cb4c5917b_o2_featured_v2.jpg",
+            "payment_methods": {
+                "card": false,
+                "cash": true,
+                "upi": false
+            }
+        }
+    ]
+}

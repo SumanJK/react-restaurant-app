@@ -1,0 +1,181 @@
+.App {
+  text-align: center;
+}
+.RestaurantCards{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+height: 60rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Filters_ratings{
+  display: flex;
+  padding: 15px 10px;
+  width: 95%;
+  margin: auto;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.nextBtn {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 3px;
+  height: 3em;
+  padding: 0 3em;
+  border: none;
+  background-color: #c41b54;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 5px
+ }
+ 
+ .nextBtn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 0;
+  bottom: 0;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  background: rgb(196,27,84);
+  background: linear-gradient(90deg, rgba(196,27,84,1) 20%, rgba(124,7,46,1) 100%);
+  transition: 0.2s;
+ }
+ 
+ .nextBtn .label {
+  position: relative;
+ }
+ 
+ .nextBtn .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  top: 3em;
+  right: 0;
+  opacity: 0;
+  transition: 0.4s;
+ }
+ 
+ .nextBtn:hover::before {
+  height: 100%;
+ }
+ 
+ .nextBtn:hover .icon {
+  top: 0;
+  opacity: 1;
+ }
+ .prevBtn {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 3px;
+  height: 3em;
+  padding: 0 3em;
+  border: none;
+  background-color: #c41b54;
+  color: #fff;
+  text-transform: uppercase;
+  overflow: hidden;
+  border-radius: 5px
+ }
+ 
+ .prevBtn::before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  height: 0px;
+  width: 100%;
+  background: rgb(196,27,84);
+  background: linear-gradient(90deg, rgba(124,7,46,1) 20% , rgba(196,27,84,1) 100%);
+  transition: 0.2s;
+ }
+ 
+ .prevBtn .label {
+  position: relative;
+ }
+ 
+ .prevBtn .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  top: -3em;
+  left: 0;
+  opacity: 0;
+  transition: 0.4s;
+ }
+ 
+ .prevBtn:hover::before {
+  height: 100%;
+ }
+ 
+ .prevBtn:hover .icon {
+  top: 0;
+  opacity: 1;
+ }
+ .pagination{
+
+padding: 10px 0;
+  
+ }
+ .btnDIv{
+  width: 20%;
+  margin: auto;
+  display: flex;
+
+  justify-content:space-between;
+  padding: 4px 10px;
+ }
+ .TotalPage{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+ }
+ .TotalPage span{
+  color: red;
+ }
